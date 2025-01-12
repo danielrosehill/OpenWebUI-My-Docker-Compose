@@ -6,9 +6,13 @@ The project's default Docker Compose is [here](https://github.com/open-webui/ope
 
 ## Versions
 
-`v1`: This version skips the Olama container and as a backup container running Alpine Linux for storing weekly backups.
+### No Ollama, Weekly Backup Container
 
-`v2` : This version skips both Olama and the backup container. 
+`v1`: This version skips the Ollama container and as a backup container running Alpine Linux for storing weekly backups.
+
+### No Ollama Only
+
+`v2` : This version skips both Ollama and the backup container. 
 
 ## Author
 
